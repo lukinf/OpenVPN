@@ -35,5 +35,7 @@ public class OpenvpnApplication implements ServletContextInitializer {
 	@Override
     public void onStartup(ServletContext servletContext) throws ServletException {
         servletContext.getSessionCookieConfig().setName("CZ.FRIDL.OPENVPN.SESSIONID");
+        //test
 	}
+	
 }
